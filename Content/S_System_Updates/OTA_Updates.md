@@ -53,14 +53,15 @@ Use this section to quickly identify the correct setup for your system.
 
 * Your system is fully vanilla
 * You use a supported, T2-era Intel SMBIOS
+* You con't need the Boord-ID skip Booter Patch for booting macOS
 * You want Secure Boot and SIP enabled
 
 ### Use **RestrictEvents** if:
 
-* You rely on OCLP root patches
 * Your SMBIOS is unsupported or spoofed
-* You need board-ID skip
-* Secure Boot must be disabled
+* You need Boord-ID skip Booter Patch for booting macOS
+* You rely on OCLP root patches
+* Secure Boot must be disabled in order to boot macOSS
 
 ### OTA Update Flowchart
 
